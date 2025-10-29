@@ -1,59 +1,86 @@
-# DisneyAttractionReservation
+# Disney Attraction Reservation
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.5.
+<img src="https://wallpapers.com/images/hd/1920x1080-disney-m5qjq1twlj9eg72p.jpg">
 
-## Development server
+## <img width="20px" src="https://cdn-icons-png.flaticon.com/512/8484/8484014.png"> Projeto
 
-To start a local development server, run:
+Este repositório armazena um projeto feito em [Angular](https://angular.dev/) como parte do Projeto Integrador realizado no Centro Universitário Senac. Os integrantes do grupo devem criar uma plataforma funcional usando os fundamentos de estrutura de componentes Web com o framework.
 
-```bash
-ng serve
+Como decisão do grupo, o tema trabalhado é entitulado "Revisão e reservas de atrações turísticas"; com um nicho definido para atrações dos parques da Disney. Foi determinado que o projeto simula um sistema de reserva de posição em filas de atrações para que os convidados possam, hipoteticamente, salvar um lugar na fila de atrações temáticas.
+
+## <img width="20px" src="https://cdn-icons-png.flaticon.com/512/8484/8484014.png"> Componentes
+
+### Componentes Básicos
+
+Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `header`, `main` e `footer`. Abaixo os atributos em cada arquivo dos componentes:
+
+#### Typescript
+
+``` typescript
+// header
+
+
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+``` typescript
+// main
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
 ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+``` typescript
+// footer
 
-```bash
-ng generate --help
 ```
 
-## Building
+#### HTML
 
-To build the project run:
+``` html
+<!-- header -->
 
-```bash
-ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+``` html
+<!-- main -->
 
-## Running unit tests
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
 ```
 
-## Running end-to-end tests
+``` html
+<!-- footer -->
 
-For end-to-end (e2e) testing, run:
 
-```bash
-ng e2e
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+#### CSS
 
-## Additional Resources
+``` css
+/* header */
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```
+
+``` css
+/* main */
+
+```
+
+``` css
+/* footer */
+
+```
+
+
+### Componentes Funcionais
+
+## <img width="20px" src="https://cdn-icons-png.flaticon.com/512/8484/8484014.png"> Estrutura de Dados
+
+``` json
+
+```
+
+## <img width="20px" src="https://cdn-icons-png.flaticon.com/512/8484/8484014.png"> Participantes
+
+* [André Coutinho de Macedo Silva](https://github.com/AndreCoutinhom);
+* [João Caetano Rocha](https://github.com/CaetanoEF).
+
+
+---
