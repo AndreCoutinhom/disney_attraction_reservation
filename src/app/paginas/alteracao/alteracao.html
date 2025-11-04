@@ -1,0 +1,45 @@
+<h1>Reservas de Hotel</h1>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label>ID:</label>
+  <input formControlName="id" type="text" />
+
+  <label>Nome:</label>
+  <input formControlName="nome" type="text" />
+
+  <label>CPF:</label>
+  <input formControlName="cpf" type="text" />
+
+  <label>Data do Check-in:</label>
+  <input formControlName="checkin" type="text" />
+
+  <label>Data do Check-out:</label>
+  <input formControlName="checkout" type="text" />
+
+  <label>Número de hóspedes:</label>
+  <input formControlName="hospedes" type="text" />
+
+  <label>Número de quartos:</label>
+  <input formControlName="quartos" type="text" />
+
+  <button type="submit">Salvar</button>
+</form>
+
+<h1>Reservas de atrações</h1>
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+  <label>ID:</label>
+  <input formControlName="id" type="text" />
+
+  <label>Nome da atração:</label>
+  <input formControlName="nome" type="email" />
+
+  <label>Número de convidados:</label>
+  <input formControlName="convidados" type="text" />
+
+  <label>Horário:</label>
+  <input formControlName="horario" type="text" />
+
+  <label>Data:</label>
+  <input formControlName="data" type="text" />
+
+  <button type="submit">Salvar</button>
+</form>

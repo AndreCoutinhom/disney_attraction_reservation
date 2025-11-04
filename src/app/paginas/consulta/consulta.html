@@ -1,0 +1,57 @@
+<div class="consulta-container">
+    <form (ngSubmit)="buscarReserva()">
+      <label for="input-codigo">Informe o ID da reserva de hotel:</label>
+      <input
+        type="number"
+        id="input-id"
+        name="input-id"
+        [(ngModel)]="idBusca"
+        class="input-id"
+        required
+      />
+      <button type="submit" class="btn-buscar">Buscar</button>
+    </form>
+  
+    <div *ngIf="reservaEncontrada" class="reserva-dados">
+      <h2>Dados da reserva</h2>
+      <p><strong>ID:</strong> {{ reservas.id }}</p>
+      <p><strong>Nome:</strong> {{ reservas.nome }}</p>
+      <p><strong>CPF:</strong> {{ reservas.cpf }}</p>
+      <p><strong>Check-in:</strong> {{ reservas.checkin }}</p>
+      <p><strong>Check-out:</strong> {{ reservas.checkout }}</p>
+      <p><strong>Número de hóspedes:</strong> {{ reservas.hospedes }}</p>
+      <p><strong>Número de quartos:</strong> {{ reservas.quartos }}</p>
+    </div>
+  
+    <div *ngIf="erroBusca" class="erro-busca">
+      {{ erroBusca }}
+    </div>
+  </div>
+
+  <div class="consulta-container">
+    <form (ngSubmit)="buscarAtracao()">
+      <label for="input-codigo">Informe o ID da reserva de hotel:</label>
+      <input
+        type="number"
+        id="input-id"
+        name="input-id"
+        [(ngModel)]="idBusca"
+        class="input-id"
+        required
+      />
+      <button type="submit" class="btn-buscar">Buscar</button>
+    </form>
+  
+    <div *ngIf="atracaoEncontrada" class="atracao-dados">
+      <h2>Dados da atração</h2>
+      <p><strong>ID:</strong> {{ atracoes.id }}</p>
+      <p><strong>Nome:</strong> {{ atracoes.nome }}</p>
+      <p><strong>Número de convidados:</strong> {{ atracoes.convidados }}</p>
+      <p><strong>Horário:</strong> {{ atracoes.horario }}</p>
+      <p><strong>Data:</strong> {{ atracoes.data }}</p>
+    </div>
+  
+    <div *ngIf="erroBusca" class="erro-busca">
+      {{ erroBusca }}
+    </div>
+  </div>

@@ -1,0 +1,53 @@
+<div class="content-container">
+    <h1>Reservas de Hotel</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>CPF</th>
+          <th>Data do Check-in</th>
+          <th>Data do Check-out</th>
+          <th>Número de hóspedes</th>
+          <th>Número de quartos</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (seriado of listaSeriados; track seriado){
+        <tr>
+          <td>{{ reservas.id }}</td>
+          <td>{{ reservas.nome }}</td>
+          <td>{{ reservas.cpf }}</td>
+          <td>{{ reservas.checkin }}</td>
+          <td>{{ reservas.checkout }}</td>
+          <td>{{ reservas.hospedes }}</td>
+          <td>{{ reservas.quartos }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+    
+    <h1>Reservas de atrações</h1>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>Número de convidados</th>
+          <th>Horário</th>
+          <th>Data</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (seriado of listaSeriados; track seriado){
+        <tr>
+          <td>{{ atracoes.id }}</td>
+          <td>{{ atracoes.nome }}</td>
+          <td>{{ atracoes.convidados }}</td>
+          <td>{{ atracoes.horario }}</td>
+          <td>{{ atracoes.data }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
