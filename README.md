@@ -61,18 +61,37 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 
 ``` html
 <!-- header -->
+<header>
+ 
+  <h1><a href="http://localhost:4200/">Disney Line Holder</a></h1>
 
+<nav class="menu">
+
+    <a routerLink="/cadastro" routerLinkActive="active">Cadastro</a>
+    <a routerLink="/consulta" routerLinkActive="active">Consulta</a>
+    <a routerLink="/exclusao" routerLinkActive="active">Exclusão</a>
+    <a routerLink="/listagem" routerLinkActive="active">Listagem</a>
+
+
+  </nav> 
+</header>
 ```
 
 ``` html
 <!-- main -->
+<main>
 
+</main>
 
 ```
 
 ``` html
 <!-- footer -->
+<footer>
 
+<p>Copyright © Andy C. and John C.</p>
+
+</footer>
 
 ```
 
