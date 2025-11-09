@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ReservasComponent } from '../../core/services/reservas-component';
 
 @Component({
   selector: 'app-exclusao',
