@@ -2,6 +2,8 @@
 
 <img src="https://wallpapers.com/images/hd/1920x1080-disney-m5qjq1twlj9eg72p.jpg">
 
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
+
 ## <img width="22px" src="https://cdn-icons-png.flaticon.com/128/8484/8484020.png"> Projeto
 
 Este repositório armazena um projeto feito em [Angular](https://angular.dev/) como parte do Projeto Integrador realizado no Centro Universitário Senac. Os integrantes do grupo devem criar uma plataforma funcional usando os fundamentos de estrutura de componentes Web com o framework.
@@ -21,41 +23,49 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // main
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // footer
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // cadastro
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // consulta
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // alteracao
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // exclusao
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` typescript
 // listagem
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 #### HTML
 
@@ -76,6 +86,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
   </nav> 
 </header>
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- main -->
@@ -84,6 +95,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 </main>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- footer -->
@@ -94,6 +106,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 </footer>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- cadastro -->
@@ -212,6 +225,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 </form>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- consulta -->
@@ -274,6 +288,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
   </div>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- alteracao -->
@@ -324,6 +339,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 </form>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- exclusao -->
@@ -374,6 +390,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
   </div>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` html
 <!-- listagem -->
@@ -432,6 +449,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
   </div>
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 #### CSS
 
@@ -439,46 +457,54 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 /* header */
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* main */
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* footer */
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* cadastro */
 
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* consulta */
 
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* alteracao */
 
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* exclusao */
 
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ``` css
 /* listagem */
 
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ### Componentes Funcionais
 
@@ -487,6 +513,7 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 ``` json
 
 ```
+<img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
 ## <img width="22px" src="https://cdn-icons-png.flaticon.com/128/8484/8484020.png"> Participantes
 
