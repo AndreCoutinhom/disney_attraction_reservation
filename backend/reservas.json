@@ -3,6 +3,7 @@
     {
       "id": "R001",
       "nome": "Ana Beatriz Silva",
+      "email": "ana.beatriz.silva@email.com",
       "cpf": "123.456.789-00",
       "checkin": "2025-03-15",
       "checkout": "2025-03-20",
@@ -12,6 +13,7 @@
     {
       "id": "R002",
       "nome": "Carlos Eduardo Ramos",
+      "email": "carlos.eduardo.ramos@email.com",
       "cpf": "987.654.321-99",
       "checkin": "2025-04-01",
       "checkout": "2025-04-05",
@@ -21,6 +23,7 @@
     {
       "id": "R003",
       "nome": "Juliana Costa Ferreira",
+      "email": "juliana.costa.ferreira@email.com",
       "cpf": "321.654.987-22",
       "checkin": "2025-05-10",
       "checkout": "2025-05-12",
@@ -30,6 +33,7 @@
     {
       "id": "R004",
       "nome": "Marcos Vinícius Oliveira",
+      "email": "marcos.vinicius.oliveira@email.com",
       "cpf": "456.789.123-44",
       "checkin": "2025-06-20",
       "checkout": "2025-06-25",
@@ -39,6 +43,7 @@
     {
       "id": "R005",
       "nome": "Renata Alves Souza",
+      "email": "renata.alves.souza@email.com",
       "cpf": "159.753.486-10",
       "checkin": "2025-07-02",
       "checkout": "2025-07-09",
