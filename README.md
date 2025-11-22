@@ -508,10 +508,103 @@ Os componentes básicos, inclusos em quase qualquer página, recebem os nomes `h
 
 ### Componentes Funcionais
 
+O projeto foi iniciado com um banco de dados de simulação para o preenchimento prévio das tabelas:
+
 ## <img width="22px" src="https://cdn-icons-png.flaticon.com/128/8484/8484020.png"> Estrutura de Dados
 
 ``` json
-
+{
+  "reservas": [
+    {
+      "id": "R001",
+      "nome": "Ana Beatriz Silva",
+      "email": "ana.beatriz.silva@email.com",
+      "cpf": "123.456.789-00",
+      "checkin": "2025-03-15",
+      "checkout": "2025-03-20",
+      "hospedes": "2",
+      "quartos": "1"
+    },
+    {
+      "id": "R002",
+      "nome": "Carlos Eduardo Ramos",
+      "email": "carlos.eduardo.ramos@email.com",
+      "cpf": "987.654.321-99",
+      "checkin": "2025-04-01",
+      "checkout": "2025-04-05",
+      "hospedes": "3",
+      "quartos": "2"
+    },
+    {
+      "id": "R003",
+      "nome": "Juliana Costa Ferreira",
+      "email": "juliana.costa.ferreira@email.com",
+      "cpf": "321.654.987-22",
+      "checkin": "2025-05-10",
+      "checkout": "2025-05-12",
+      "hospedes": "1",
+      "quartos": "1"
+    },
+    {
+      "id": "R004",
+      "nome": "Marcos Vinícius Oliveira",
+      "email": "marcos.vinicius.oliveira@email.com",
+      "cpf": "456.789.123-44",
+      "checkin": "2025-06-20",
+      "checkout": "2025-06-25",
+      "hospedes": "4",
+      "quartos": "2"
+    },
+    {
+      "id": "R005",
+      "nome": "Renata Alves Souza",
+      "email": "renata.alves.souza@email.com",
+      "cpf": "159.753.486-10",
+      "checkin": "2025-07-02",
+      "checkout": "2025-07-09",
+      "hospedes": "2",
+      "quartos": "1"
+    }
+  ],
+  
+  "atracoes": [
+    {
+      "id": "A001",
+      "nome": "Show de Luzes no Lago",
+      "convidados": "250",
+      "horario": "19:30",
+      "data": "2025-12-20"
+    },
+    {
+      "id": "A002",
+      "nome": "Espetáculo Aéreo Fantasia Celeste",
+      "convidados": "500",
+      "horario": "21:00",
+      "data": "2025-12-21"
+    },
+    {
+      "id": "A003",
+      "nome": "Parada das Estrelas",
+      "convidados": "800",
+      "horario": "18:00",
+      "data": "2025-12-22"
+    },
+    {
+      "id": "A004",
+      "nome": "Concerto Sinfônico ao Ar Livre",
+      "convidados": "300",
+      "horario": "20:00",
+      "data": "2025-12-23"
+    },
+    {
+      "id": "A005",
+      "nome": "Apresentação de Teatro Infantil",
+      "convidados": "150",
+      "horario": "16:00",
+      "data": "2025-12-24"
+    }
+  ]
+}
 ```
 <img align="center" src="https://i.imgur.com/5EKtKDd.gif"/>
 
